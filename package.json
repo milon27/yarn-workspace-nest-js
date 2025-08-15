@@ -1,0 +1,13 @@
+{
+  "name": "yarn-w-nest",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*"
+  ],
+  "packageManager": "yarn@4.9.2",
+  "scripts": {
+    "web": "yarn workspace @mono/app"
+  }
+}
