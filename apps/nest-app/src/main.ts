@@ -5,7 +5,7 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   await app.listen(4000);
-  console.log(SitePromotionRewardType.Item);
+  console.log('Imported enum value:', SitePromotionRewardType.Item);
   console.log('NestJS app is running on port 4000');
 }
 bootstrap();
