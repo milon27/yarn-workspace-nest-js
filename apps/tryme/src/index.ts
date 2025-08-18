@@ -1,4 +1,4 @@
 export enum SitePromotionRewardType {
-  Item = 'Item',
-  CashBack = 'CashBack',
+  Item = "Item2",
+  CashBack = "CashBack",
 }

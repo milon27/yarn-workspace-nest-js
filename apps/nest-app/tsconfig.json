@@ -17,10 +17,7 @@
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
-    "moduleResolution": "node",
-    "paths": {
-      "@mono/tryme": ["../tryme/src/index.ts"]
-    }
+    "moduleResolution": "node"
   },
-  "include": ["src/**/*", "../tryme/src/**/*"]
+  "include": ["src/**/*"]
 }
